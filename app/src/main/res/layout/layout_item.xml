@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_style"
+    android:gravity="center_vertical"
+    android:background="@drawable/lv_itembg_selector"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        style="@style/ig_style2"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/test"
+        android:id="@+id/imageView1" />
+
+    <TextView
+        style="@style/tv_style"
+        android:layout_marginLeft="10dp"
+        android:text="New Text"
+        android:id="@+id/textView1" />
+</LinearLayout>

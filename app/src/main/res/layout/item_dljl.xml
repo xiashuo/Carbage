@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_style"
+    android:background="@color/bg_list"
+    >
+    <ImageView
+        android:id="@+id/image1"
+        style="@style/ig_style"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/test"
+        />
+    <TextView
+        android:id="@+id/text"
+        style="@style/tv_style"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:text="111"
+        />
+    <TextView
+        android:id="@+id/text2"
+        style="@style/tv_style4"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="2015-08-21 09:10:43"
+        />
+</RelativeLayout>

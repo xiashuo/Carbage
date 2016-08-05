@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/view2"
+    >
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            style="@style/tv_style6"
+            android:text="000001"
+            android:layout_marginTop="8.5dp"
+            />
+        <TextView
+            style="@style/tv_style6"
+            android:text="60 t"
+            android:layout_marginTop="8.5dp"
+            />
+        <TextView
+            style="@style/tv_style6"
+            android:text="60 t"
+            android:layout_marginTop="8.5dp"
+            />
+        <TextView
+            style="@style/tv_style6"
+            android:text="10"
+            android:layout_marginTop="8.5dp"
+            />
+        <TextView
+            style="@style/tv_style6"
+            android:text="1200rpm"
+            android:layout_marginTop="8.5dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_bichang"
+        style="@style/tv_style"
+        android:text="25 m"
+        android:layout_toRightOf="@+id/ll1"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="55dp"
+        />
+    <TextView
+        android:id="@+id/tv_high"
+        style="@style/tv_style"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tv_bichang"
+        android:layout_marginTop="30dp"
+        android:text="9 m"
+        />
+    <TextView
+        android:id="@+id/tv_angle"
+        style="@style/tv_style"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="85dp"
+        android:layout_below="@+id/tv_high"
+        android:layout_marginTop="60dp"
+        android:text="55°"
+        />
+    <TextView
+        style="@style/tv_style"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="113dp"
+        android:layout_below="@+id/tv_angle"
+        android:layout_marginTop="115dp"
+        android:text="10 m"
+        />
+</RelativeLayout>

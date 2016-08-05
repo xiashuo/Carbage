@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_style"
+    android:background="@color/bg_list"
+    >
+    <ImageView
+        android:id="@+id/image1"
+        style="@style/ig_style"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/test"
+        />
+    <TextView
+        android:id="@+id/text"
+        style="@style/tv_style"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_marginLeft="10dp"
+        android:text="111"
+        />
+    <TextView
+        android:id="@+id/text2"
+        style="@style/tv_style4"
+        android:layout_alignLeft="@+id/text"
+        android:layout_below="@+id/text"
+        android:text="首次使用：2015-08-21"
+        />
+    <ImageView
+        style="@style/ig_style"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/test"
+        />
+</RelativeLayout>

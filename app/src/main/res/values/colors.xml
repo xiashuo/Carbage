@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myGrey">#C8C7CC</color>
+    <color name="color_bg">#F0EFF5</color>
+    <color name="mblue">#2B82F3</color>
+    <color name="mdark">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="border">#909090</color>
+    <color name="tv_bg">#B7B7B7</color>
+    <color name="bg_title">#2B82F3</color>
+    <color name="bg_layout">#F0EFF5</color>
+    <color name="bg_list">#FFFFFF</color>
+    <color name="bg_selected">#4CA1FE</color>
+    <color name="tv_color">#4F4F4F</color>
+    <color name="et_border">#666666</color>
+    <color name="tv2_color">#999999</color>
+    <color name="myRed">#F80404</color>
+    <color name="blueline">#94B1F5</color>
+    <color name="seekbarbg">#E7E7E9</color>
+    <color name="bt_border">#B3B3B3</color>
+    <color name="selected">#C1DBF6</color>
+    <color name="bg_warning">#EFEFF4</color>
+</resources>

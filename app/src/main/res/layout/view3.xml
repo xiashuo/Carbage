@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/view3"
+    >
+    <EditText
+        android:id="@+id/et_k2"
+        style="@style/et_style1"
+        android:text="1.00"
+        android:background="@drawable/tv_shape"
+        android:gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="183dp"
+        />
+    <EditText
+        android:id="@+id/et_k3"
+        style="@style/et_style1"
+        android:text="1.00"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/et_k2"
+        android:background="@drawable/tv_shape"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="105dp"
+        />
+    <EditText
+        android:id="@+id/et_k1"
+        style="@style/et_style1"
+        android:text="1.00"
+        android:gravity="center"
+        android:background="@drawable/tv_shape"
+        android:layout_alignBottom="@+id/et_k2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/tv_k4"
+        style="@style/et_style1"
+        android:text="1.00"
+        android:gravity="center"
+        android:background="@drawable/tv_shape"
+        android:layout_alignBottom="@+id/et_k3"
+        android:layout_alignRight="@+id/et_k1"
+        />
+    <TextView
+        android:id="@+id/tv_k1_w"
+        style="@style/tv_style"
+        android:text="8 t"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="58dp"
+        android:layout_above="@+id/et_k1"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_k2_w"
+        style="@style/tv_style"
+        android:text="8 t"
+        android:layout_marginLeft="55dp"
+        android:layout_alignBottom="@+id/tv_k1_w"
+        />
+    <TextView
+        android:id="@+id/tv_k3_w"
+        style="@style/tv_style"
+        android:text="8 t"
+        android:layout_alignLeft="@+id/tv_k2_w"
+        android:layout_above="@+id/et_k3"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        style="@style/tv_style"
+        android:text="8 t"
+        android:layout_alignLeft="@+id/tv_k1_w"
+        android:layout_alignBottom="@+id/tv_k3_w"
+        />
+</RelativeLayout>
